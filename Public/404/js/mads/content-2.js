@@ -1,0 +1,1 @@
+document.writeln("<a><img src=\'https://wx4.sinaimg.cn/large/0060lm7Tly1fz34pva6hhj30hs05kt9c.jpg\' width=\'365\' height=\'120\'></a>");
