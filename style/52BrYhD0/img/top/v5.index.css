@@ -1,0 +1,59 @@
+	/*body{ background:#1b1c1d;}*/
+	.header .navbar-brand.logo{padding:8px 15px}
+    .header .logo img{ height:38px}
+	.header .user-top img.img-circle{ height:30px}
+	.header .user-top a.dropdown-toggle{padding: 10px 15px}
+	.header .form-search{ text-align:center}
+	.header .form-search .input-group{ display:inline-block; margin-left:auto; margin-right:auto}
+	.header .form-search .form-control{ width:auto;border-radius:4px 0 0 4px}
+	.header .form-search .form-control,.header .form-search .btn{ border:none}
+	.header .form-search .btn{ height:34px; line-height:34px; padding:0 15px; background:#f2f2f2}
+	.header .form-search .btn:hover{background:#ddd}
+	.header .nav a,.header .nav p{ text-align:center; text-decoration:none}
+	.header .navbar-collapse{ max-height:100%}
+	/*.header .dropdown-toggle>sup.subnav-dot-sup{ left:40px}*/
+	.flash-index{ height:500px; margin-bottom:10px}
+	.flash-index .search-form-index{  margin:0 auto;padding-top:208px; width:80%}
+	.flash-index .search-form-index .form-control,.flash-index .search-form-index .btn{ border:none; padding:0 15px; height:50px; line-height:50px; font-size:18px}
+	.flash-index .search-form-index .btn{ padding:0 25px}
+	.flash-index .alert{margin:0 auto;width:80%; padding:15px 0; background:none; border:none;border-radius:0}
+	.flash-index .alert h5{ margin:0; color:#fff; font-weight:bold}
+	.flash-index .row{margin-top:138px}
+	.flash-index .row p{ margin:0; line-height:28px; font-weight:bold}
+	.flash-index .row .btn{ border:none}
+	.flash-index .row span{ display:inline-block; background:#ddd}
+	.flash-index .row .m{ display:none}
+	.list-pic a.thumbnail{border-radius:0; border:none; padding:0; position:relative}
+	.list-pic a.thumbnail:hover{ text-decoration:none;}
+	.list-pic a.thumbnail h5{ margin:0; line-height:18px; display:block; height:54px; overflow:hidden}
+	.list-pic a.thumbnail img{ width:100%}	
+	.list-pic a.thumbnail .tag{ position:absolute; top:10px; left:-5px; z-index:1}
+	.list-pic a.thumbnail .tag li{ height:25px}
+	.list-pic a.thumbnail .tag .label{ float:left; padding:5px 10px 5px 5px;border-radius:0 10px 10px 0}
+	.foot-copy .foot-copy-text{ border-top:1px solid #444}
+	.foot-copy .foot-copy-text p{ margin:15px 0; color:#999}	
+	.dropdown-menu{ border:none;border-radius:0;border-top:3px solid #ffd100; padding:0;}
+	.dropdown-menu>li>a{ padding:10px 0; text-align:center; color:#777; position:relative; display:block;}
+	.dropdown-menu>li>a sup.subnav-num-sup{ top:8px; left:59%;}
+	.dropdown-menu>li>a:hover{ background:#f2f2f2;}
+	.dropdown-menu .divider{ margin:0;}
+	sup.subnav-dot-sup {display: inline-block;width: 8px;height: 8px;border-radius: 50%;background: #ff4a3b;margin: 0 0 2px 3px;position: absolute;top: 6px;left: 50%px;}
+	sup.subnav-num-sup{min-width:7px;height:15px;text-align:center;background:#f4523b;border-radius:10px;padding:0 4px;font-size:12px;color:#f9f9f9;vertical-align:middle;line-height:15px;margin:0 0 2px 3px;position:absolute;top: 20px;left: 35px; z-index:999;}
+	
+	
+	/*淡入动画*/	
+	.list-pic a.thumbnail:hover img{z-index:0;animation:fadein 1s backwards;-moz-animation:fadein 1s backwards;-webkit-animation:fadein 1s backwards;-o-animation:fadein 1s backwards;}	
+	/*闪耀动画*/
+	.flash-index .search-form-index .btn:hover i.fa,.flash-index .row .btn:hover i.fa,.header .logo img:hover{animation:flash 1s ease;-moz-animation:flash 1s ease;-webkit-animation:flash 1s ease;-o-animation:flash 1s ease;}
+	
+	
+	@media (min-width: 768px) {
+		.flash-index .search-form-index,.flash-index .alert{width:640px}
+		.flash-index .row{margin-top:155px}
+		sup.subnav-dot-sup{ top: 22px;left:18px;}
+		.dropdown-menu>li>a sup.subnav-num-sup{left:90px;}
+	}
+	@media (min-width: 992px) {
+		.flash-index { display:none}
+		.header { display:none}
+	}

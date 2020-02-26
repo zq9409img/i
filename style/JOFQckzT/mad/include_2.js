@@ -1,0 +1,1 @@
+document.writeln("<b style=\'color:#f30\'><a>无广告影院 movie6o</a></b>");

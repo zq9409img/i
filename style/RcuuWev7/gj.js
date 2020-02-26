@@ -1,0 +1,1 @@
+document.writeln("<div style=\'margin-top:13px;font-size:18px;text-align:center;color:#f00;\'><p><b>菠菜站的资源所以有两次跑马灯广告。告诫：远离赌博，真爱生命！下载观看清晰度更高、无水印!</b></p></div>");

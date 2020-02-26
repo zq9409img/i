@@ -1,0 +1,7 @@
+.lb .cntBox{width: 960px;}
+.lb .cntBox .conBox {width: 960px;height: auto;}
+.lb .cntBox .box {width: 958px;}
+.lb .conBox .channel-content ul {margin: 0 15px;}
+.lb .conBox .channel-content ul li{margin:15px 18px 15px 20px;_margin:15px 18px 15px 15px;}
+.search_no {margin: 80px 100px;padding-left: 105px;font-size: 14px;background: url(https://i.504537168.com/style/RcuuWev7/hint.png) no-repeat 0 0;}
+.search_no .red{color: red;}

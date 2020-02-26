@@ -1,0 +1,97 @@
+/*
+Theme Name:LeHuo
+*/
+
+table {background-color: transparent; border-spacing: 0; border-collapse: collapse; font-size:0.75em; width:100%;border-top:solid 1px #ddd;border-left:solid 1px #ddd; box-sizing: border-box;}
+table th{background-color:#f9f9f9;text-align:center; box-sizing: border-box;}
+table td,table th{padding:5px 10px;border:1px solid #ddd; box-sizing: border-box;}
+hr {border:none; border-bottom:1px solid #2b2621;}
+/*gold*/
+.inner {width:1130px; margin:0 auto;}
+
+/*container*/
+.container {overflow:hidden;}
+
+/*main*/
+.mainx {width:1100px; float:left;}
+/*postmeta*/
+.postmeta {padding: 7px 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.postmeta span {font-size:0.75em; color:#09bb07; margin-right:40px;}
+/*hots*/
+
+.hots .section-title,.content .section-title,.widget .section-title,.friendlinks .section-title {border-bottom:1px solid #eee;  margin-bottom:20px;}
+.hots ul,.section {overflow:hidden;}
+.hots ul li {float:left; width:49%; padding-bottom:20px;}
+.hots ul li.right {float:right;}
+.hots ul li .thumbnail_xxx {width:130px; height:98px; float:left; padding-right:10px;}
+.hots ul li img {height:98px;}
+.hots ul li h4 {white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:1em; margin-bottom:5px;}
+/*section*/
+.section {margin-bottom: 20px;    border-bottom: 1px solid #ffdb00;    padding-bottom: 15px;}
+.section h2 {font-weight: inherit;    font-size: 20px;    white-space: nowrap;    text-overflow: inherit;    margin-top: 5px;}
+.section .thumbnail_xxx {float:left; width:300px; height:150px; padding-right:25px; position:relative;}
+.section .thumbnail_xxx span {position:absolute; left:0; top:0; padding:0 5px; font-size:0.75em; background:rgba(71,150,216,.7); color:#fff;}
+.section .thumbnail_xxx img {height:150px;}
+.section .excerpt p {font-size: 15px;    color: #808080;    height: 72px;}
+
+/*screen width*/
+@media only screen and (max-width:1200px){
+	.inner {width:1024px;}
+	.nav .menu ul li, .top-other ul li {font-size:0.875em;}
+	.search-form .s {width:400px;}
+	.mainx {width:740px;}
+	.focus {width:380px; height:359px;}
+	.focus ul li img,.flexslider {height:359px;}
+	.top {width:340px;}
+	.top h4 {margin-bottom:9px;}
+	.top ul li {padding-bottom:10px; margin-bottom:10px;}
+	.sidebar {width:264px;}
+	.related-pic ul {width:719px;}
+	.related-pic ul li {width:164.75px;}
+	.related-pic ul li .thumbnail_xxx {height:123px;}
+	.widget .follow img {width:100px; height:100px;}
+}
+
+@media only screen and (max-width:767px){
+	.inner,.nav .menu ul li a {width:100%;}
+	.top-other .icon-menu {display:block;}
+	/*.nav {display:none; position:fixed; left:0; top:60px; background-color:#343639; width:100%; height:100%; z-index:9; box-shadow:0 0 3px #232323; overflow-x:hidden; overflow-y:scroll; }*/
+	.nav .menu {padding-bottom:60px;}
+	.nav .menu > ul {border-bottom:1px solid #444;}
+	.nav .menu ul li {border:none; float:none; clear:both; display:block; border-bottom:1px solid #000; border-top:1px solid #444; line-height:45px;}
+	.nav .menu ul li a {display:block; margin:0 auto;}
+	.nav .menu ul li ul {display:block; position:relative; top:auto; left:auto; width:100%;}
+	.nav .menu ul li ul li {font-size:1em; text-align:left; line-height:45px;}
+	.nav .menu ul li ul li a {padding:0 15px 0 40px;}
+	.nav .menu ul li a:hover {background-color:transparent;}
+	/*mobile nav*/
+	body.nav-active {overflow: hidden; position: fixed;left: 0; top: 0; width: 100%;}
+	.nav.mobile-nav {display:block;}
+	/*mobile nav end*/
+	.search-form .s {width:750px;}
+	.search-form {float:none;}
+	.tagscloud {padding-left:0;}
+	.search-bg {padding:15px 0 10px;}
+	.mainx,.sidebar {width:100%; float:none;}
+	.top {width:440px;}
+	.related-pic ul {width:819px;}
+	.related-pic ul li {width:189.75px;}
+	.related-pic ul li .thumbnail_xxx {height:142px;}
+	.section {margin-bottom:20px; border-bottom:1px solid #ebebeb;}
+	.section h2 {font-weight: normal;
+    font-size: 16px;
+    white-space: inherit;
+    text-overflow: ellipsis;
+    margin-top: 150px;
+	}
+	.section .thumbnail_xxx {width: 100%;    height: 140px;    padding-right: 0px;    position: relative;}
+	.section .thumbnail_xxx span {position:absolute; left:0; top:0; padding:0 5px; font-size:0.75em; background:rgba(71,150,216,.7); color:#fff;}
+	.section .thumbnail_xxx img {height:150px;}
+	.section .excerpt p {font-size: 14px;
+    color: #a5a5a5;
+    height: 190px;
+    overflow: inherit;
+	}
+	.postmeta {margin-bottom:5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+	.postmeta span {font-size:0.65em; color:#09bb07; margin-right:15px;}
+}
